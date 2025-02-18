@@ -13,8 +13,12 @@ CREATE TABLE IF NOT EXISTS plates (
 )
 ''')
 
+# # Plates tablosuna bir plaka numarası ekleyelim
+# plate_number = '34ABC123'
+# cursor.execute("INSERT INTO plates (plate_number) VALUES (?)", (plate_number,))
+
 # Plates tablosuna bir plaka numarası ekleyelim
-plate_number = '34ABC123'
+plate_number = '45DNM123'
 cursor.execute("INSERT INTO plates (plate_number) VALUES (?)", (plate_number,))
 
 # Değişiklikleri kaydet
